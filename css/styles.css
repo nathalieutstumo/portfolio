@@ -552,6 +552,16 @@ footer {
     margin-right: 60px;
   }
 
+  li {
+    list-style-type: none;
+    margin-bottom: 40px;
+    margin-left: 50px;
+  }
+
+  li a {
+    font-size: 2rem;
+  }
+
   header a {
     width: 50px;
     height: 20px;
