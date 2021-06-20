@@ -621,7 +621,7 @@ footer {
 
   .short-info__border {
     width: 255px;
-    height: 90px;
+    height: 95px;
     border: solid 3px #0f9d58;
     float: left;
     margin-left: 0px;
@@ -636,7 +636,7 @@ footer {
 
   .basic--info__border {
     width: 255px;
-    height: 210px;
+    height: 215px;
     border: solid 3px #0f9d58;
     margin-left: -3px;
     margin-top: 40px;
@@ -650,7 +650,7 @@ footer {
 
   .frontend--info__border {
     width: 255px;
-    height: 230px;
+    height: 235px;
     border: solid 3px #0f9d58;
     margin-top: 30px;
     margin-left: -3px;
