@@ -963,6 +963,7 @@ footer {
     font-size: 1.5rem;
     color: #0f9d58;
     margin-left: 100px;
+    margin-top: -20px;
   }
 
   .footer__links li {
