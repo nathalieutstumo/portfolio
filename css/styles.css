@@ -819,84 +819,80 @@ footer {
   }
 
   .nameError {
-    width: 410px;
+    width: 150px;
     height: 25px;
     color: black;
     background-color: #f8d7da;
     border-color: #f5c6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 70px;
     font-size: 1rem;
     margin-top: -60px;
   }
 
   .emailError {
-    width: 410px;
-    height: 25px;
+    width: 150px;
+    height: 45px;
     color: black;
     background-color: #f8d7da;
     border-color: #f5c6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 70px;
     font-size: 1rem;
     margin-top: -60px;
   }
 
   .subjectError {
-    width: 410px;
-    height: 25px;
+    width: 150px;
+    height: 70px;
     color: black;
     background-color: #f8d7da;
     border-color: #f5c6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 70px;
     font-size: 1rem;
     margin-top: -60px;
   }
 
   p.contentError.show {
     margin-top: 10px;
-    width: 410px;
-    height: 25px;
+    width: 150px;
+    height: 75px;
     color: black;
     background-color: #f8d7da;
     border-color: #f5c6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 60px;
     font-size: 1rem;
   }
 
   .successMessage {
-    margin-top: -80px;
-    width: 410px;
-    height: 25px;
+    margin-top: 30px;
+    width: 150px;
+    height: 95px;
     color: black;
     background-color: #d4edda;
     border-color: #c3e6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 65px;
     font-size: 1rem;
   }
 
   button#submit {
-    margin-top: 70px;
+    margin-top: 780px;
     height: 40px;
     background-color: white;
     border: 3px #0f9d58 solid;
     font-size: 1.2rem;
     font-family: "Oswald", sans-serif;
     width: 100px;
-    margin-left: 245px;
-  }
-
-  button#submit:hover {
-    background-color: #0f9d58;
-    color: lightgray;
+    margin-left: 90px;
+    position: absolute;
   }
 
   .hide {
@@ -932,24 +928,24 @@ footer {
   }
 
   form input {
-    width: 400px;
+    width: 200px;
     height: 25px;
     /* margin-top: 20px; */
     border: 3px solid #0f9d58;
-    margin-left: 90px;
+    margin-left: 35px;
   }
 
   textarea#content {
     font-family: "Open Sans", sans-serif;
     border: 3px solid #0f9d58;
-    width: 400px;
-    margin-left: 90px;
+    width: 200px;
+    margin-left: 35px;
     margin-top: 0px;
   }
 
   .github__icon {
-    margin-left: -54px;
-    margin-top: 20px;
+    margin-left: 85px;
+    margin-top: 50px;
     color: #0f9d58;
   }
 
@@ -957,26 +953,18 @@ footer {
     font-size: 6rem;
   }
 
-  .github__icon a:hover {
-    color: lightgray;
-  }
-
   footer {
-    width: 1200;
-    height: 100px;
+    width: 300px;
     border-top: 3px solid #0f9d58;
-    margin-top: 50px;
-    margin-left: -490px;
+    display: inline-block;
+    margin-left: -20px;
   }
 
   .logo__footer a {
     font-family: "Oswald", sans-serif;
     font-size: 1.5rem;
     color: #0f9d58;
-  }
-
-  .logo__footer a:hover {
-    color: lightgray;
+    margin-left: 100px;
   }
 
   .footer__links li {
@@ -986,7 +974,6 @@ footer {
   }
 
   .footer__links {
-    margin-left: 460px;
     margin-top: -65px;
   }
 }
