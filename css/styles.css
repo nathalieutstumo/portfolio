@@ -969,6 +969,7 @@ footer {
     list-style-type: none;
     display: inline;
     margin-right: 40px;
+    display: none;
   }
 
   .footer__links {
