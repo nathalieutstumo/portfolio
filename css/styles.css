@@ -968,11 +968,13 @@ footer {
   }
 
   .footer__links li {
-    display: none;
+    list-style-type: none;
+    display: inline;
+    margin-right: 40px;
   }
 
   .footer__links {
-    margin-left: 460px;
     margin-top: -65px;
+    display: none;
   }
 }
