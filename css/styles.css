@@ -538,11 +538,11 @@ footer {
     border-bottom: 3px solid #0f9d58;
   }
 
-  header .logo {
+  header .logo p {
     font-family: "Oswald", sans-serif;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #0f9d58;
-    margin-left: 50px;
+    margin-left: -45px;
     text-align: left;
   }
 
@@ -560,9 +560,9 @@ footer {
   header i {
     float: right;
     color: #0f9d58;
-    font-size: 3rem;
-    margin-top: -85px;
-    margin-right: -680px;
+    font-size: 2.5rem;
+    margin-top: -75px;
+    margin-right: 10px;
   }
 
   main {
@@ -574,40 +574,42 @@ footer {
   }
 
   .border__one {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     border: 3px solid #0f9d58;
-    margin: auto;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: 0px;
   }
 
   .border__two {
-    width: 450px;
-    height: 450px;
+    width: 250px;
+    height: 250px;
     border: 3px solid #4285f4;
-    margin: auto;
+    margin-top: 20px;
   }
 
   .border__three {
-    width: 400px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border: 3px solid #db4437;
-    margin: auto;
+    margin-top: 20px;
   }
 
   .img img {
-    width: 350px;
-    height: 350px;
+    width: 150px;
+    height: 150px;
     margin-top: 25px;
     margin-left: 25px;
   }
 
   .h1__border {
-    width: 350px;
+    width: 250px;
     height: 75px;
     border: solid 3px #0f9d58;
-    float: right;
-    margin-top: 105px;
-    margin-right: 200px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 25px;
   }
 
   main h1 {
@@ -620,12 +622,12 @@ footer {
   }
 
   .short-info__border {
-    width: 455px;
-    height: 50px;
+    width: 255px;
+    height: 80px;
     border: solid 3px #0f9d58;
-    float: right;
-    margin-right: 150px;
-    margin-top: -400px;
+    float: left;
+    margin-left: -460px;
+    margin-top: 120px;
   }
 
   .short__info {
@@ -635,8 +637,8 @@ footer {
   }
 
   .basic--info__border {
-    width: 455px;
-    height: 130px;
+    width: 255px;
+    height: 210px;
     border: solid 3px #0f9d58;
     margin-left: -3px;
     margin-top: 40px;
@@ -649,8 +651,8 @@ footer {
   }
 
   .frontend--info__border {
-    width: 455px;
-    height: 130px;
+    width: 255px;
+    height: 230px;
     border: solid 3px #0f9d58;
     margin-top: 30px;
     margin-left: -3px;
@@ -664,10 +666,10 @@ footer {
 
   .projects__border {
     border: solid 3px #db4437;
-    width: 350px;
+    width: 250px;
     height: 75px;
     margin-top: 60px;
-    margin-left: -190px;
+    margin-left: 0px;
   }
 
   .projects__border h2 {
@@ -680,44 +682,32 @@ footer {
 
   .project--one__border {
     font-family: "Open Sans", sans-serif;
-    width: 400px;
-    height: 35px;
+    width: 250px;
+    height: 70px;
     border: solid 3px #db4437;
     font-size: 1.5rem;
     text-align: center;
     margin-top: 20px;
-    margin-left: -215px;
+    margin-left: 0px;
   }
 
   .project--two__border {
     font-family: "Open Sans", sans-serif;
-    width: 400px;
-    height: 35px;
+    width: 250px;
+    height: 70px;
     border: solid 3px #db4437;
     font-size: 1.5rem;
     text-align: center;
     margin-top: 20px;
-    margin-left: -215px;
-  }
-
-  main a,
-  a:focus,
-  a:active {
-    color: black;
-    text-decoration: none;
-  }
-
-  main a:hover {
-    font-weight: bold;
-    color: #db4437;
+    margin-left: 0px;
   }
 
   .skills__border {
     border: solid 3px #4285f4;
-    width: 350px;
+    width: 250px;
     height: 75px;
     margin-top: 60px;
-    margin-left: -190px;
+    margin-left: 0px;
   }
 
   .skills__border h2 {
@@ -730,12 +720,12 @@ footer {
 
   .skills--box__one {
     font-family: "Open Sans", sans-serif;
-    width: 400px;
+    width: 200px;
     height: 35px;
     border: solid 3px #4285f4;
     font-size: 1.5rem;
     text-align: center;
-    margin-left: -430px;
+    margin-left: 25px;
     margin-top: 20px;
   }
 
@@ -745,13 +735,13 @@ footer {
 
   .skills--box__two {
     font-family: "Open Sans", sans-serif;
-    width: 400px;
+    width: 200px;
     height: 35px;
     border: solid 3px #4285f4;
     font-size: 1.5rem;
     text-align: center;
-    margin-left: 0px;
-    margin-top: -41px;
+    margin-left: 25px;
+    margin-top: 10px;
   }
 
   .skills--box__two h3 {
@@ -760,13 +750,13 @@ footer {
 
   .skills--box__three {
     font-family: "Open Sans", sans-serif;
-    width: 400px;
+    width: 200px;
     height: 35px;
     border: solid 3px #4285f4;
     font-size: 1.5rem;
     text-align: center;
-    margin-left: -430px;
-    margin-top: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
   }
 
   .skills--box__three h3 {
@@ -775,13 +765,13 @@ footer {
 
   .skills--box__four {
     font-family: "Open Sans", sans-serif;
-    width: 400px;
+    width: 200px;
     height: 35px;
     border: solid 3px #4285f4;
     font-size: 1.5rem;
     text-align: center;
-    margin-left: 0px;
-    margin-top: -41px;
+    margin-left: 25px;
+    margin-top: 10px;
   }
 
   .skills--box__four h3 {
@@ -790,13 +780,13 @@ footer {
 
   .skills--box__five {
     font-family: "Open Sans", sans-serif;
-    width: 400px;
+    width: 200px;
     height: 35px;
     border: solid 3px #4285f4;
     font-size: 1.5rem;
     text-align: center;
-    margin-left: -215px;
-    margin-top: 20px;
+    margin-left: 25px;
+    margin-top: 10px;
   }
 
   .skills--box__five h3 {
@@ -805,10 +795,10 @@ footer {
 
   .contact__border {
     border: solid 3px #0f9d58;
-    width: 350px;
+    width: 200px;
     height: 75px;
     margin-top: 60px;
-    margin-left: -190px;
+    margin-left: 25px;
   }
 
   .contact__border h2 {
@@ -820,93 +810,89 @@ footer {
   }
 
   .contact--form__border {
-    width: 590px;
-    height: 780px;
+    width: 280px;
+    height: 820px;
     border: #0f9d58 solid 3px;
-    margin-left: -310px;
+    margin-left: -14px;
     margin-top: 20px;
     text-align: center;
   }
 
   .nameError {
-    width: 410px;
+    width: 150px;
     height: 25px;
     color: black;
     background-color: #f8d7da;
     border-color: #f5c6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 70px;
     font-size: 1rem;
     margin-top: -60px;
   }
 
   .emailError {
-    width: 410px;
-    height: 25px;
+    width: 150px;
+    height: 45px;
     color: black;
     background-color: #f8d7da;
     border-color: #f5c6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 70px;
     font-size: 1rem;
     margin-top: -60px;
   }
 
   .subjectError {
-    width: 410px;
-    height: 25px;
+    width: 150px;
+    height: 70px;
     color: black;
     background-color: #f8d7da;
     border-color: #f5c6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 70px;
     font-size: 1rem;
     margin-top: -60px;
   }
 
   p.contentError.show {
     margin-top: 10px;
-    width: 410px;
-    height: 25px;
+    width: 150px;
+    height: 75px;
     color: black;
     background-color: #f8d7da;
     border-color: #f5c6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 60px;
     font-size: 1rem;
   }
 
   .successMessage {
-    margin-top: -80px;
-    width: 410px;
-    height: 25px;
+    margin-top: 30px;
+    width: 150px;
+    height: 95px;
     color: black;
     background-color: #d4edda;
     border-color: #c3e6cb;
     font-family: "Open Sans", sans-serif;
     font-weight: bolder;
-    margin-left: 90px;
+    margin-left: 65px;
     font-size: 1rem;
   }
 
   button#submit {
-    margin-top: 70px;
+    margin-top: 780px;
     height: 40px;
     background-color: white;
     border: 3px #0f9d58 solid;
     font-size: 1.2rem;
     font-family: "Oswald", sans-serif;
     width: 100px;
-    margin-left: 245px;
-  }
-
-  button#submit:hover {
-    background-color: #0f9d58;
-    color: lightgray;
+    margin-left: 90px;
+    position: absolute;
   }
 
   .hide {
@@ -942,24 +928,24 @@ footer {
   }
 
   form input {
-    width: 400px;
+    width: 200px;
     height: 25px;
     /* margin-top: 20px; */
     border: 3px solid #0f9d58;
-    margin-left: 90px;
+    margin-left: 35px;
   }
 
   textarea#content {
     font-family: "Open Sans", sans-serif;
     border: 3px solid #0f9d58;
-    width: 400px;
-    margin-left: 90px;
+    width: 200px;
+    margin-left: 35px;
     margin-top: 0px;
   }
 
   .github__icon {
-    margin-left: -54px;
-    margin-top: 20px;
+    margin-left: 85px;
+    margin-top: 50px;
     color: #0f9d58;
   }
 
@@ -967,32 +953,22 @@ footer {
     font-size: 6rem;
   }
 
-  .github__icon a:hover {
-    color: lightgray;
-  }
-
   footer {
-    width: 1200;
-    height: 100px;
+    width: 300px;
     border-top: 3px solid #0f9d58;
-    margin-top: 50px;
-    margin-left: -490px;
+    display: inline-block;
+    margin-left: -20px;
   }
 
   .logo__footer a {
     font-family: "Oswald", sans-serif;
     font-size: 1.5rem;
     color: #0f9d58;
-  }
-
-  .logo__footer a:hover {
-    color: lightgray;
+    margin-left: 100px;
   }
 
   .footer__links li {
-    list-style-type: none;
-    display: inline;
-    margin-right: 40px;
+    display: none;
   }
 
   .footer__links {
