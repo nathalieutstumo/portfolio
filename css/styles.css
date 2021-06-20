@@ -568,9 +568,7 @@ footer {
   main {
     height: auto;
     width: 100%;
-    justify-content: center;
-    height: auto;
-    margin: auto;
+    margin: 100px;
   }
 
   .border__one {
